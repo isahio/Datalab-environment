@@ -32,7 +32,9 @@ To make sure that the <b>datalab</b> environment is activated every time that we
 We now need to perform two more commands, that will ensure that Python and sqlite function as intended on Windows:
 
 <code>echo "alias python='winpty python'" >> ~/.bash_profile</code>
+
 <code>echo "alias sqlite3='winpty sqlite3'" >> ~/.bash_profile</code>
+
 <code>echo "alias checkpy='winpty checkpy'" >> ~/.bash_profile</code>
 
 Now restart your terminal, and check whether it starts into the <b>datalab</b> environment.
