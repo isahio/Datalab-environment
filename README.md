@@ -11,7 +11,7 @@ To verify that the installation has worked, you can check whether your terminal 
 
 Now, with your new terminal, run the commands below. (Don’t copy all four lines at once into your terminal, but enter them one line at a time.)
 
-<code>curl [https://raw.githubusercontent.com/spcourse/sp1-python/main/en/installing/computer/environment.env](https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACLYIGHQ2RRJIMXWEQNDGIIOZMAU57Q) > environment.yml
+<code>curl [[https://raw.githubusercontent.com/spcourse/sp1-python/main/en/installing/computer/environment.env](https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACLYIGHQ2RRJIMXWEQNDGIIOZMAU57Q)](https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACO2ABJBLVLURDOMCRF3ECYAZO6AKHA) > environment.yml
 conda install -n base conda-libmamba-solver
 conda config --set solver libmamba
 conda env create -f environment.yml
