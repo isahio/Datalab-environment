@@ -1,15 +1,16 @@
 # Datalab environment
 
+Ga van de MWM2 wifi op de MWM2-Guest wifi!
 
 Open een <b>Anaconda Prompt</b> terminal en typ:
 
 <code>conda init bash</code>
 
-This will instruct your terminal to prepare your terminal for running conda commands. Close the terminal, and open a new one. This will restart your terminal and makes sure that everything is initiated correctly.
+Dit zorgt ervoor dat jouw terminal klaar is voor het runnen van de commands. Het beste is om de terminal nu af te sluiten en een nieuwe te openen zodat alles correct wordt uitgevoerd. 
 
-To verify that the installation has worked, you can check whether your terminal shows something like (base) in front of every line in the terminal.
+Je kan de installatie verifiëren door te kijken of je terminal zoiets als (base) voor elke line heeft staan. 
 
-Now, with your new terminal, run the commands below. (Don’t copy all four lines at once into your terminal, but enter them one line at a time.)
+Met de nieuwe terminal, run de commands zoals volgt: (BELANGRIJK: niet alles tegelijk maar stap voor stap!!)
 
 <code>curl https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACO2ABJBLVLURDOMCRF3ECYAZO6AKHA > environment.yml
 conda install -n base conda-libmamba-solver
@@ -17,19 +18,18 @@ conda config --set solver libmamba
 conda env create -f environment.yml
 rm environment.yml</code>
 
-This downloads a formatted description of what libraries to download and install, then installs the libraries, and subsequently removes the description (as we no longer need it).
+Dit downloadt een beschrijving van welke bibliotheken gedownload en geinstalleerd moeten worden, en installeert de bibliotheken. Daarna verwijderd het de omschrijvingen. 
 
-From here on out when you open a terminal we can use the following command to enter the environment, and enable the use of all the libraries we installed:
+Nu, wanneer je een nieuwe terminal opent kan je het volgende command gebruiken om onze <i>Datalab</i> environment te gebruiken :)
 
 <code>conda activate datalab</code>
 
-To make sure that the environment we just installed is started every time we start a new terminal, we can run some commands.
 
-To make sure that the <b>datalab</b> environment is activated every time that we start a terminal, we can run the following command:
+Om de environment elke keer te gebruiken als je een nieuwe (Anaconda) terminal opent, doen we als volgt:
 
 <code>echo 'conda activate datalag' >> ~/.bash_profile</code>
 
-We now need to perform two more commands, that will ensure that Python and sqlite function as intended on Windows:
+We moeten nu nog twee opdrachten uitvoeren, die ervoor zullen zorgen dat Python en sqlite naar behoren functioneren op Windows:
 
 <code>echo "alias python='winpty python'" >> ~/.bash_profile</code>
 
@@ -37,4 +37,4 @@ We now need to perform two more commands, that will ensure that Python and sqlit
 
 <code>echo "alias checkpy='winpty checkpy'" >> ~/.bash_profile</code>
 
-Now restart your terminal, and check whether it starts into the <b>datalab</b> environment.
+Nu, herstart je terminal, en controleer of deze start in de <b>datalab</b> environment.
