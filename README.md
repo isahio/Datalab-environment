@@ -12,12 +12,15 @@ Je kan de installatie verifiëren door te kijken of je terminal zoiets als (base
 
 Met de nieuwe terminal, run de commands zoals volgt: (BELANGRIJK: niet alles tegelijk maar stap voor stap!!)
 
-<code>curl https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACO2ABJBLVLURDOMCRF3ECYAZO6AKHA > environment.yml
+<code>curl https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACO2ABJBLVLURDOMCRF3ECYAZO6AKHA > environment.yml</code>
 
-conda install -n base conda-libmamba-solver
-conda config --set solver libmamba
-conda env create -f environment.yml
-rm environment.yml</code>
+<code>conda install -n base conda-libmamba-solver</code>
+
+<code>conda config --set solver libmamba</code>
+
+<code>conda env create -f environment.yml</code>
+
+<code>rm environment.yml</code>
 
 Dit downloadt een beschrijving van welke bibliotheken gedownload en geinstalleerd moeten worden, en installeert de bibliotheken. Daarna verwijderd het de omschrijvingen. 
 
