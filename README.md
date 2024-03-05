@@ -1,7 +1,7 @@
 # Datalab environment
 
 
-First, open a terminal and run the following command:
+Open een <b>Anaconda Prompt</b> terminal en typ:
 
 <code>conda init bash</code>
 
