@@ -12,7 +12,7 @@ Je kan de installatie verifiëren door te kijken of je terminal zoiets als (base
 
 Met de nieuwe terminal, run de commands zoals volgt: (BELANGRIJK: niet alles tegelijk maar stap voor stap!!)
 
-<code>curl https://raw.githubusercontent.com/isahio/trial/main/environment.env?token=GHSAT0AAAAAACO2ABJBLVLURDOMCRF3ECYAZO6AKHA > environment.yml</code>
+<code>curl https://raw.githubusercontent.com/isahio/Datalab-environment/main/environment.env > environment.yml</code>
 
 <code>conda install -n base conda-libmamba-solver</code>
 
