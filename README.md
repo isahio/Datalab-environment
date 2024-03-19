@@ -20,6 +20,8 @@ Met de nieuwe terminal, run de commands zoals volgt: (BELANGRIJK: niet alles teg
 
 <code>conda env create -f environment.yml</code>
 
+(dit onderstaande stukje code hoeft niet altijd)
+
 <code>rm environment.yml</code>
 
 Dit downloadt een beschrijving van welke bibliotheken gedownload en geinstalleerd moeten worden, en installeert de bibliotheken. Daarna verwijderd het de omschrijvingen. 
@@ -28,6 +30,8 @@ Nu, wanneer je een nieuwe terminal opent kan je het volgende command gebruiken o
 
 <code>conda activate datalab</code>
 
+
+## Optioneel
 
 Om de environment elke keer te gebruiken als je een nieuwe (Anaconda) terminal opent, doen we als volgt:
 
