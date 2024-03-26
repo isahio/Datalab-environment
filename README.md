@@ -35,7 +35,7 @@ Nu, wanneer je een nieuwe terminal opent kan je het volgende command gebruiken o
 
 Om de environment elke keer te gebruiken als je een nieuwe (Anaconda) terminal opent, doen we als volgt:
 
-<code>echo 'conda activate datalag' >> ~/.bash_profile</code>
+<code>echo 'conda activate datalab' >> ~/.bash_profile</code>
 
 We moeten nu nog twee opdrachten uitvoeren, die ervoor zullen zorgen dat Python en sqlite naar behoren functioneren op Windows:
 
